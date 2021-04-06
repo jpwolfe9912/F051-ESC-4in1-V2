@@ -1,4 +1,98 @@
-03-19 21:14:05 replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
-03-19 21:14:05 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, May 14 2020, 09:34:58) \n[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]'
-03-19 21:14:05 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6-0-10_14)
-03-19 21:14:05 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+04-05 20:26:01 replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+04-05 20:26:01 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, May 14 2020, 09:34:58) \n[GCC 4.2.1 Compatible Apple LLVM 9.0.0 (clang-900.0.39.2)]'
+04-05 20:26:01 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6-0-10_14)
+04-05 20:26:01 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+04-05 20:26:01 replicate_layout.action_replicate_layout 340:Preparing replicator with U1 as a reference
+04-05 20:26:01 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+04-05 20:26:01 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'60419849': [u'Curent Sense', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/CurrentSense.sch'], u'60308500': [u'Power', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/Power.sch'], u'60799262': [u'MOSFET_Driver_1', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MOSFET_Driver_1.sch'], u'60535FFC': [u'MCU 3', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MCU_3.sch'], u'60799273': [u'MCU_1', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MCU_1.sch'], u'6072B380': [u'MOSFET_Driver_2', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MOSFET_Driver_2.sch'], u'607F6DA4': [u'sheet607F6D67', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MOSFET_Driver_1.sch'], u'60536007': [u'MOSFET Driver 3', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MOSFET_Driver_3.sch'], u'6072B375': [u'MCU_2', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MCU_2.sch'], u'607F6DB5': [u'sheet607F6D68', u'/Users/jeremywolfe/Documents/KiCAD/F051-ESC-4in1-V2/MCU_1.sch']}
+04-05 20:26:01 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+04-05 20:26:01 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U1'
+Located on:[u'MOSFET_Driver_1']
+With filenames:[u'MOSFET_Driver_1.sch']
+With sheet_id:[u'MOSFET_Driver_1']
+04-05 20:26:01 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U11', [u'sheet607F6D67']), (u'U1', [u'MOSFET_Driver_1'])]
+04-05 20:26:01 replicate_layout.action_replicate_layout 384:Showing dialog
+04-05 20:26:01 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(1440, 25)
+04-05 20:26:01 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1440, 900)
+04-05 20:26:01 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(1440, 0, 1920, 1080)
+04-05 20:26:01 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(3154, 125)
+04-05 20:26:01 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(2841, 125)
+04-05 20:26:03 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'MOSFET_Driver_1', file:u'MOSFET_Driver_1.sch'
+04-05 20:26:03 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'MOSFET_Driver_1']
+04-05 20:26:03 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U11', u'U1']
+04-05 20:26:03 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/607F6DA4/60750EB4', u'/60799262/60750EB4']
+04-05 20:26:03 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet607F6D67'], [u'MOSFET_Driver_1']]
+04-05 20:26:03 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'MOSFET_Driver_1'], [u'sheet607F6D67']]
+04-05 20:26:03 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet607F6D67']]
+04-05 20:26:05 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'MOSFET_Driver_1', file:u'MOSFET_Driver_1.sch'
+04-05 20:26:05 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'MOSFET_Driver_1']
+04-05 20:26:05 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'U11', u'U1']
+04-05 20:26:05 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/607F6DA4/60750EB4', u'/60799262/60750EB4']
+04-05 20:26:05 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet607F6D67'], [u'MOSFET_Driver_1']]
+04-05 20:26:05 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'MOSFET_Driver_1'], [u'sheet607F6D67']]
+04-05 20:26:05 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet607F6D67']]
+04-05 20:26:05 replicate_layout.action_replicate_layout 179:Replicating layout
+04-05 20:26:05 replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'sheet607F6D67']]
+on level: [u'MOSFET_Driver_1']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+04-05 20:26:05 root 261:updating GUI message: 'Preparing for replication'
+04-05 20:26:05 root 266:updating GUI with: 0
+04-05 20:26:05 replicate_layout.replicatelayout 556:Getting the list of source footprints
+04-05 20:26:05 root 266:updating GUI with: 0
+04-05 20:26:05 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+04-05 20:26:05 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+04-05 20:26:05 replicate_layout.replicatelayout 568:Getting source bounding box
+04-05 20:26:05 root 266:updating GUI with: 37
+04-05 20:26:05 replicate_layout.replicatelayout 572:Getting source tracks
+04-05 20:26:05 replicate_layout.replicatelayout 576:Getting source zones
+04-05 20:26:05 root 266:updating GUI with: 62
+04-05 20:26:05 replicate_layout.replicatelayout 580:Getting source text items
+04-05 20:26:05 replicate_layout.replicatelayout 584:Getting source text items
+04-05 20:26:05 root 266:updating GUI with: 87
+04-05 20:26:05 root 266:updating GUI with: 100
+04-05 20:26:05 root 261:updating GUI message: 'Replicating footprints'
+04-05 20:26:06 replicate_layout.replicatelayout 590:Replicating footprints
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet607F6D67']
+04-05 20:26:06 root 266:updating GUI with: 5
+04-05 20:26:06 root 266:updating GUI with: 15
+04-05 20:26:06 root 266:updating GUI with: 25
+04-05 20:26:06 root 266:updating GUI with: 30
+04-05 20:26:06 root 266:updating GUI with: 44
+04-05 20:26:06 root 266:updating GUI with: 60
+04-05 20:26:06 root 266:updating GUI with: 70
+04-05 20:26:06 root 266:updating GUI with: 90
+04-05 20:26:06 root 266:updating GUI with: 95
+04-05 20:26:06 root 266:updating GUI with: 100
+04-05 20:26:06 root 261:updating GUI message: 'Replicating tracks'
+04-05 20:26:06 replicate_layout.replicatelayout 720:Replicating tracks
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet607F6D67']
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 root 266:updating GUI with: 94
+04-05 20:26:06 root 261:updating GUI message: 'Replicating zones'
+04-05 20:26:06 replicate_layout.replicatelayout 771:Replicating zones
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet607F6D67']
+04-05 20:26:06 root 261:updating GUI message: 'Replicating text'
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 837:Replicating text
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet607F6D67']
+04-05 20:26:06 root 261:updating GUI message: 'Replicating drawings'
+04-05 20:26:06 replicate_layout.replicatelayout 868:Replicating drawings
+04-05 20:26:06 root 266:updating GUI with: 0
+04-05 20:26:06 replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet607F6D67']
+04-05 20:26:07 replicate_layout.action_replicate_layout 201:Replication complete
