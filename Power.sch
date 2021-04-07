@@ -187,7 +187,7 @@ U 1 1 604B9DDC
 P 6450 3600
 F 0 "U3" H 6450 3950 50  0000 C CNN
 F 1 "L78L12_SOT89" H 6450 3850 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 6450 3800 50  0001 C CIN
+F 2 "Footprints:L78L12ACUTR" H 6450 3800 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 6450 3550 50  0001 C CNN
 	1    6450 3600
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 1 1 6052800B
 P 5050 3600
 F 0 "U13" H 5050 3950 50  0000 C CNN
 F 1 "L78L12_SOT89" H 5050 3850 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 5050 3800 50  0001 C CIN
+F 2 "Footprints:L78L12ACUTR" H 5050 3800 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 5050 3550 50  0001 C CNN
 	1    5050 3600
 	1    0    0    -1  
