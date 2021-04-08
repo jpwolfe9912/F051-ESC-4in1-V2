@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 11
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -4293,8 +4293,6 @@ Wire Wire Line
 	7350 2400 6900 2400
 Wire Wire Line
 	7050 2100 7050 2850
-Text HLabel 6350 3150 0    50   Input ~ 0
-NRST
 $Comp
 L power:+3V3 #PWR0110
 U 1 1 6050F9B5
@@ -4430,4 +4428,6 @@ F 3 "" H 6100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6100 1450
+Text Label 6350 3150 2    50   ~ 0
+NRST
 $EndSCHEMATC
