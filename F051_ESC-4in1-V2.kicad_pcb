@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 63)
+    (drawings 65)
     (tracks 2158)
     (zones 0)
     (modules 223)
@@ -24,10 +24,10 @@
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (41 Cmts.User user hide)
-    (44 Edge.Cuts user)
+    (44 Edge.Cuts user hide)
     (45 Margin user hide)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
     (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
@@ -9685,6 +9685,10 @@
       (net 33 "/MCU 3/PhaseC"))
   )
 
+  (gr_circle (center 155.25 73.26) (end 158.25 73.26) (layer Cmts.User) (width 0.15) (tstamp 60CBBD85))
+  (gr_text "1. Signal\n2. GND\n3. Signal\n30-40 mil gap\n4. Signal\n5. PWR\n6. Signal" (at 172.3 74.73) (layer Cmts.User)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 155.25 68.5) (end 158.25 68.5) (layer Edge.Cuts) (width 0.15) (tstamp 60918C5B))
   (gr_arc (start 158.25 73.25) (end 163 73.25) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 60918C4D))
   (gr_line (start 121.75 68.5) (end 124.75 68.5) (layer Edge.Cuts) (width 0.15) (tstamp 60918C17))
