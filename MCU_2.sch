@@ -14,78 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F0:STM32F051K6Ux U2
-U 1 1 6059DC3A
-P 5050 2950
-AR Path="/60302A40/6059DC3A" Ref="U2"  Part="1" 
-AR Path="/605793E5/6059DC3A" Ref="U8"  Part="1" 
-AR Path="/6057AB62/6059DC3A" Ref="U?"  Part="1" 
-AR Path="/6054D32F/6059DC3A" Ref="U1"  Part="1" 
-AR Path="/60568CD3/6059DC3A" Ref="U?"  Part="1" 
-AR Path="/60575054/6059DC3A" Ref="U?"  Part="1" 
-AR Path="/60595215/6059DC3A" Ref="U9"  Part="1" 
-AR Path="/605A2EB9/6059DC3A" Ref="U11"  Part="1" 
-AR Path="/60535FFC/6059DC3A" Ref="U9"  Part="1" 
-AR Path="/6072B375/6059DC3A" Ref="U6"  Part="1" 
-AR Path="/6077FA6E/6059DC3A" Ref="U2"  Part="1" 
-AR Path="/60799273/6059DC3A" Ref="U2"  Part="1" 
-F 0 "U6" H 5050 2950 50  0000 C CNN
-F 1 "STM32F051K6Ux" H 4950 3050 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4550 2050 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf" H 5050 2950 50  0001 C CNN
-	1    5050 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR020
-U 1 1 6050F99C
-P 4950 2050
-AR Path="/60302A40/6050F99C" Ref="#PWR020"  Part="1" 
-AR Path="/605793E5/6050F99C" Ref="#PWR0147"  Part="1" 
-AR Path="/6057AB62/6050F99C" Ref="#PWR?"  Part="1" 
-AR Path="/6054D32F/6050F99C" Ref="#PWR0109"  Part="1" 
-AR Path="/60568CD3/6050F99C" Ref="#PWR?"  Part="1" 
-AR Path="/60575054/6050F99C" Ref="#PWR?"  Part="1" 
-AR Path="/60595215/6050F99C" Ref="#PWR0180"  Part="1" 
-AR Path="/605A2EB9/6050F99C" Ref="#PWR0205"  Part="1" 
-AR Path="/60535FFC/6050F99C" Ref="#PWR0178"  Part="1" 
-AR Path="/6072B375/6050F99C" Ref="#PWR0136"  Part="1" 
-AR Path="/6077FA6E/6050F99C" Ref="#PWR0151"  Part="1" 
-AR Path="/60799273/6050F99C" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0136" H 4950 1900 50  0001 C CNN
-F 1 "+3V3" H 4850 2200 50  0000 C CNN
-F 2 "" H 4950 2050 50  0001 C CNN
-F 3 "" H 4950 2050 50  0001 C CNN
-	1    4950 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4950 2050 5050 2050
-Connection ~ 4950 2050
-$Comp
-L power:GND #PWR021
-U 1 1 6059DC2B
-P 5050 3950
-AR Path="/60302A40/6059DC2B" Ref="#PWR021"  Part="1" 
-AR Path="/605793E5/6059DC2B" Ref="#PWR0148"  Part="1" 
-AR Path="/6057AB62/6059DC2B" Ref="#PWR?"  Part="1" 
-AR Path="/6054D32F/6059DC2B" Ref="#PWR0110"  Part="1" 
-AR Path="/60568CD3/6059DC2B" Ref="#PWR?"  Part="1" 
-AR Path="/60575054/6059DC2B" Ref="#PWR?"  Part="1" 
-AR Path="/60595215/6059DC2B" Ref="#PWR0181"  Part="1" 
-AR Path="/605A2EB9/6059DC2B" Ref="#PWR0206"  Part="1" 
-AR Path="/60535FFC/6059DC2B" Ref="#PWR0179"  Part="1" 
-AR Path="/6072B375/6059DC2B" Ref="#PWR0137"  Part="1" 
-AR Path="/6077FA6E/6059DC2B" Ref="#PWR0152"  Part="1" 
-AR Path="/60799273/6059DC2B" Ref="#PWR0152"  Part="1" 
-F 0 "#PWR0137" H 5050 3700 50  0001 C CNN
-F 1 "GND" H 5150 3850 50  0000 C CNN
-F 2 "" H 5050 3950 50  0001 C CNN
-F 3 "" H 5050 3950 50  0001 C CNN
-	1    5050 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 6050F99E
 P 3800 1800
@@ -211,18 +139,6 @@ F 3 "~" H 4050 1800 50  0001 C CNN
 	1    4050 1800
 	1    0    0    -1  
 $EndComp
-Text HLabel 4450 3050 0    50   Output ~ 0
-LIN1
-Text HLabel 4450 2950 0    50   Output ~ 0
-LIN2
-Text HLabel 5550 2950 2    50   Output ~ 0
-LIN3
-Text HLabel 5550 3250 2    50   Output ~ 0
-HIN3
-Text HLabel 5550 3150 2    50   Output ~ 0
-HIN2
-Text HLabel 5550 3050 2    50   Output ~ 0
-HIN1
 Text HLabel 6600 2100 0    50   Input ~ 0
 PhaseA
 Text HLabel 6600 2400 0    50   Input ~ 0
@@ -323,14 +239,6 @@ F 3 "~" H 7900 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8150 2100 0    50   ~ 0
-SenseCOM
-Text Label 5550 2750 0    50   ~ 0
-SenseA
-Text Label 5550 2650 0    50   ~ 0
-SenseB
-Text Label 5550 2250 0    50   ~ 0
-SenseC
-Text Label 5550 2350 0    50   ~ 0
 SenseCOM
 Text Label 7050 1950 1    50   ~ 0
 SenseA
@@ -563,12 +471,10 @@ Wire Wire Line
 	7350 2400 7800 2400
 Wire Wire Line
 	7800 2100 7050 2100
-Text Label 4450 2250 2    50   ~ 0
-NRST
 $Comp
 L power:GND #PWR010
 U 1 1 6059DC44
-P 6350 3700
+P 6600 3550
 AR Path="/60302A40/6059DC44" Ref="#PWR010"  Part="1" 
 AR Path="/605793E5/6059DC44" Ref="#PWR0154"  Part="1" 
 AR Path="/6057AB62/6059DC44" Ref="#PWR?"  Part="1" 
@@ -581,17 +487,15 @@ AR Path="/60535FFC/6059DC44" Ref="#PWR0185"  Part="1"
 AR Path="/6072B375/6059DC44" Ref="#PWR0143"  Part="1" 
 AR Path="/6077FA6E/6059DC44" Ref="#PWR0159"  Part="1" 
 AR Path="/60799273/6059DC44" Ref="#PWR0159"  Part="1" 
-F 0 "#PWR0143" H 6350 3450 50  0001 C CNN
-F 1 "GND" H 6450 3600 50  0000 C CNN
-F 2 "" H 6350 3700 50  0001 C CNN
-F 3 "" H 6350 3700 50  0001 C CNN
-	1    6350 3700
+F 0 "#PWR0143" H 6600 3300 50  0001 C CNN
+F 1 "GND" H 6700 3450 50  0000 C CNN
+F 2 "" H 6600 3550 50  0001 C CNN
+F 3 "" H 6600 3550 50  0001 C CNN
+	1    6600 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 3500 6350 3500
-Text Label 4450 2450 2    50   ~ 0
-BOOT0
+	6500 3350 6600 3350
 Text Label 7650 3500 2    50   ~ 0
 BOOT0
 $Comp
@@ -646,47 +550,10 @@ Wire Wire Line
 	8050 3600 8050 3500
 Wire Wire Line
 	8050 3500 7950 3500
-Text HLabel 5750 2450 2    50   Input ~ 0
-PWM
-$Comp
-L Device:R_Small R24
-U 1 1 6050F9B2
-P 5650 2450
-AR Path="/60302A40/6050F9B2" Ref="R24"  Part="1" 
-AR Path="/605793E5/6050F9B2" Ref="R31"  Part="1" 
-AR Path="/6057AB62/6050F9B2" Ref="R?"  Part="1" 
-AR Path="/6054D32F/6050F9B2" Ref="R11"  Part="1" 
-AR Path="/60568CD3/6050F9B2" Ref="R?"  Part="1" 
-AR Path="/60575054/6050F9B2" Ref="R?"  Part="1" 
-AR Path="/60595215/6050F9B2" Ref="R42"  Part="1" 
-AR Path="/605A2EB9/6050F9B2" Ref="R59"  Part="1" 
-AR Path="/60535FFC/6050F9B2" Ref="R42"  Part="1" 
-AR Path="/6072B375/6050F9B2" Ref="R25"  Part="1" 
-AR Path="/6077FA6E/6050F9B2" Ref="R17"  Part="1" 
-AR Path="/60799273/6050F9B2" Ref="R17"  Part="1" 
-F 0 "R25" V 5700 2450 50  0000 C CNN
-F 1 "1k" V 5650 2450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5650 2450 50  0001 C CNN
-F 3 "~" H 5650 2450 50  0001 C CNN
-	1    5650 2450
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 5550 2550
-NoConn ~ 5550 2850
-NoConn ~ 5550 3450
-NoConn ~ 5550 3350
-NoConn ~ 5550 3750
-NoConn ~ 4450 3750
-NoConn ~ 4450 3450
-NoConn ~ 4450 3350
-NoConn ~ 4450 3250
-NoConn ~ 4450 3150
-NoConn ~ 4450 2650
-NoConn ~ 4450 2750
 $Comp
 L Device:C_Small C?
 U 1 1 6050F9B3
-P 6350 3600
+P 6600 3450
 AR Path="/6050F9B3" Ref="C?"  Part="1" 
 AR Path="/60302A40/6050F9B3" Ref="C15"  Part="1" 
 AR Path="/605793E5/6050F9B3" Ref="C31"  Part="1" 
@@ -700,17 +567,13 @@ AR Path="/60535FFC/6050F9B3" Ref="C36"  Part="1"
 AR Path="/6072B375/6050F9B3" Ref="C27"  Part="1" 
 AR Path="/6077FA6E/6050F9B3" Ref="C15"  Part="1" 
 AR Path="/60799273/6050F9B3" Ref="C15"  Part="1" 
-F 0 "C27" H 6442 3646 50  0000 L CNN
-F 1 "0.1uF" H 6350 3550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6350 3600 50  0001 C CNN
-F 3 "~" H 6350 3600 50  0001 C CNN
-	1    6350 3600
+F 0 "C27" H 6692 3496 50  0000 L CNN
+F 1 "0.1uF" H 6600 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6600 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 5550 3550 2    50   Input ~ 0
-SWDIO
-Text HLabel 5550 3650 2    50   Input ~ 0
-SWCLK
 $Bitmap
 Pos 2650 3150
 Scale 1.000000
@@ -4418,7 +4281,7 @@ Wire Wire Line
 	7350 2400 6900 2400
 Wire Wire Line
 	7050 2100 7050 2850
-Text HLabel 6250 3500 0    50   Input ~ 0
+Text HLabel 6500 3350 0    50   Input ~ 0
 NRST
 $Comp
 L power:+3V3 #PWR0110
@@ -4545,24 +4408,6 @@ F 3 "" H 5800 1650 50  0001 C CNN
 	1    5800 1650
 	1    0    0    -1  
 $EndComp
-Text HLabel 4450 3650 0    50   Input ~ 0
-USART1_RX
-Text HLabel 4450 3550 0    50   Input ~ 0
-USART1_TX
-$Comp
-L power:+3V3A_2 #PWR0148
-U 1 1 605631A2
-P 5150 2050
-AR Path="/6072B375/605631A2" Ref="#PWR0148"  Part="1" 
-AR Path="/6077FA6E/605631A2" Ref="#PWR0165"  Part="1" 
-AR Path="/60799273/605631A2" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0148" H 5150 2000 50  0001 C CNN
-F 1 "+3V3A_2" H 5135 2223 50  0000 C CNN
-F 2 "" H 5150 2050 50  0001 C CNN
-F 3 "" H 5150 2050 50  0001 C CNN
-	1    5150 2050
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3A_2 #PWR0149
 U 1 1 6056D000
@@ -4578,4 +4423,135 @@ F 3 "" H 6100 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6100 1450
+$Comp
+L Device:R_Small R?
+U 1 1 607587F0
+P 5750 2400
+AR Path="/60302A40/607587F0" Ref="R?"  Part="1" 
+AR Path="/605793E5/607587F0" Ref="R?"  Part="1" 
+AR Path="/6054D32F/607587F0" Ref="R?"  Part="1" 
+AR Path="/605CA831/607587F0" Ref="R?"  Part="1" 
+AR Path="/6073F35C/607587F0" Ref="R?"  Part="1" 
+AR Path="/60799273/607587F0" Ref="R?"  Part="1" 
+AR Path="/607F6DB5/607587F0" Ref="R?"  Part="1" 
+AR Path="/6072B375/607587F0" Ref="R25"  Part="1" 
+F 0 "R25" V 5800 2400 50  0000 C CNN
+F 1 "1k" V 5750 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5750 2400 50  0001 C CNN
+F 3 "~" H 5750 2400 50  0001 C CNN
+	1    5750 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3A_2 #PWR0136
+U 1 1 6078D9AE
+P 5250 2000
+AR Path="/6072B375/6078D9AE" Ref="#PWR0136"  Part="1" 
+AR Path="/6077FA6E/6078D9AE" Ref="#PWR?"  Part="1" 
+AR Path="/60799273/6078D9AE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0136" H 5250 1950 50  0001 C CNN
+F 1 "+3V3A_2" H 5235 2173 50  0000 C CNN
+F 2 "" H 5250 2000 50  0001 C CNN
+F 3 "" H 5250 2000 50  0001 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 607587D5
+P 5050 2000
+AR Path="/60302A40/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/605793E5/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/6054D32F/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/605CA831/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/6073F35C/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/60799273/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/607F6DB5/607587D5" Ref="#PWR?"  Part="1" 
+AR Path="/6072B375/607587D5" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 5050 1850 50  0001 C CNN
+F 1 "+3V3" H 4950 2150 50  0000 C CNN
+F 2 "" H 5050 2000 50  0001 C CNN
+F 3 "" H 5050 2000 50  0001 C CNN
+	1    5050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 607587DD
+P 5150 3900
+AR Path="/60302A40/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/605793E5/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/6054D32F/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/605CA831/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/6073F35C/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/60799273/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/607F6DB5/607587DD" Ref="#PWR?"  Part="1" 
+AR Path="/6072B375/607587DD" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 5150 3650 50  0001 C CNN
+F 1 "GND" H 5250 3800 50  0000 C CNN
+F 2 "" H 5150 3900 50  0001 C CNN
+F 3 "" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 4550 3000 0    50   Output ~ 0
+LIN1
+Text HLabel 4550 2900 0    50   Output ~ 0
+LIN2
+Text HLabel 5650 2900 2    50   Output ~ 0
+LIN3
+Text HLabel 5650 3200 2    50   Output ~ 0
+HIN3
+Text HLabel 5650 3100 2    50   Output ~ 0
+HIN2
+Text HLabel 5650 3000 2    50   Output ~ 0
+HIN1
+Text Label 4550 2200 2    50   ~ 0
+NRST
+Text Label 4550 2400 2    50   ~ 0
+BOOT0
+NoConn ~ 5650 2500
+NoConn ~ 5650 2800
+NoConn ~ 5650 3400
+NoConn ~ 5650 3300
+NoConn ~ 5650 3700
+NoConn ~ 4550 3400
+NoConn ~ 4550 3300
+Text HLabel 5650 3500 2    50   Input ~ 0
+SWDIO
+Text HLabel 5650 3600 2    50   Input ~ 0
+SWCLK
+Text HLabel 4550 3600 0    50   Input ~ 0
+USART1_RX
+Text HLabel 4550 3500 0    50   Input ~ 0
+USART1_TX
+$Comp
+L MCU_ST_STM32F0:STM32F051K6Ux U6
+U 1 1 609416B2
+P 5150 2900
+F 0 "U6" H 5500 3750 50  0000 C CNN
+F 1 "STM32F051K6Ux" H 4650 3750 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 4650 2000 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00039193.pdf" H 5150 2900 50  0001 C CNN
+	1    5150 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 5850 2400 2    50   Input ~ 0
+PWM
+Text Label 5650 2300 0    50   ~ 0
+SenseCOM
+Text Label 5650 2200 0    50   ~ 0
+SenseC
+Text Label 5650 2600 0    50   ~ 0
+SenseB
+Text Label 5650 2700 0    50   ~ 0
+SenseA
+NoConn ~ 4550 2700
+NoConn ~ 4550 2600
+NoConn ~ 4550 3100
+NoConn ~ 4550 3200
+NoConn ~ 4550 3700
+Wire Wire Line
+	5050 2000 5150 2000
+Connection ~ 5050 2000
 $EndSCHEMATC
